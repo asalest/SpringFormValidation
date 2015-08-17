@@ -1,0 +1,288 @@
+@CHARSET "ISO-8859-1";
+
+body{
+    font-family:helvetica;
+    background:#e6e6e6;
+}
+
+#capcelera{
+	padding-top:5px; 
+	border: 0px solid #000;
+ 	margin: 0 auto;
+ 	text-align:center;
+ 	overflow:hidden;
+ 	background:#e0e6d0;
+ 	padding-bottom:20px;
+}
+
+#capcelera h2{
+	color:#6a7841;	
+}
+
+#capcelera small{
+	color:#a7b678;
+}
+
+
+#cos{
+	padding-top:5px; 
+	padding-left:10px;
+	border: 0px solid #000;
+ 	margin: 0 auto;
+ 	overflow:hidden;
+ 	padding-bottom:20px;
+ 	height:auto;
+}
+
+#peu{
+	overflow:hidden;
+    margin:auto;
+    background:#787878;
+    text-align: center;
+}
+
+#peu p{
+	color:white;
+}
+
+#menuV{
+	visibility: visible;
+	border: 0px solid #000; 
+	background:#93a659;
+	height:800px;
+	width:180px;
+	padding-left:19px;
+	padding-top:10px;
+	float:left;
+}
+
+div.crearTabla{
+	text-align: center;
+    border: 0px solid #000;
+    padding-top:10px;
+}
+ 
+.crearTabla table {
+    margin: 10px auto;
+    text-align: left;
+    font-weight: bold;
+    color:#6a7841;
+}
+
+div.crearTabla input[type="submit"]
+{
+    border:0px solid #ccc;
+    text-decoration:none;
+    color:#000;
+}
+
+div.crearTabla input[type="submit"]:hover
+{
+    border:0px solid #ccc;
+    text-decoration:none;
+    color:#000;
+    background:#e0e6d0;
+}
+
+option:hover{
+    background:red;
+}
+
+.error {
+    color: #6a7841;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#redo{
+	-webkit-border-radius: 2em;
+    -moz-border-radius: 2em;
+    border-radius: 2em;
+    margin-bottom:4px;
+    width:140px;
+ 	background:white;
+}
+
+#redo:hover{
+	 background:#e0e6d0;
+}
+
+#submenu:hover{
+	background:#e0e6d0;
+}
+
+a:link {
+	text-decoration:none; 
+	color: #5d5d5d;
+} /* Link no visitado*/
+a:visited {
+	text-decoration:none; 
+	color:#000000;
+} /*Link visitado*/
+a:active {
+	text-decoration:none; 
+	color:#000000; 
+	background:#e0e6d0;
+} /*Link activo*/
+
+.home a:hover{
+	color:#93a659;
+}
+
+#navbar1{
+	width:182px;
+	float:left;
+}
+
+
+
+/************LOGIN***************/
+
+#container {
+	border: 0px solid #000;
+ 	margin: 4.1% auto;
+ 	text-align:center;
+ 	overflow:hidden;
+ 	background:#a7b678;
+ 	padding-bottom:20px;
+ 	height:250px;
+}
+
+.login {
+	overflow:hidden;
+	text-align: center;
+	margin:2.6% auto;
+ 	background-color:#fff;
+ 	color:#6a7841;
+}
+
+.loginCajas {
+	display:inline-table;
+    border:0px solid #ccc;
+    padding:15px;
+    height:100px;
+    width:100px;
+    margin:3px;
+}
+
+.submit input{
+	width:80px;
+}
+
+
+/**********Home*************/
+
+
+#home{
+	overflow:hidden;
+	text-align: center;
+	margin:2.6% auto;
+ 	background-color:#fff;
+ 	color:#6a7841;
+ 	height:177px;
+}
+
+.homeCajas {
+	display:inline-table;
+    border:0px solid #ccc;
+    padding:15px;
+    height:100px;
+    width:100px;
+    margin-top:32px;
+}
+
+.homeCajas input{	
+    width:130px;
+    height:50px;
+    margin-top:10px;
+}
+
+div.homeCajas input[type="submit"]:hover{
+    border:1px solid #ccc;
+    color:#000;
+    background:#e0e6d0;
+}
+
+/***SEARCH***/
+
+
+#searchcss{
+	/*****border: 0px solid #000;
+	height:80px;
+	color:#6a7841;
+	margin:20px auto;
+	background-color: #a7b678;*/
+	
+	padding-top:5px; 
+ 	padding-bottom:20px;
+	padding-left:50px;
+	border: 0px solid #000;
+ 	margin: 40px auto;
+ 	text-align:center;
+ 	overflow:hidden;
+ 	background:#a7b678;
+}
+
+#searchcssCas{
+	border:0px solid #000;
+	height:78px;
+	width:auto;
+	float:left;
+}
+
+.serachBorder{
+	margin-left:25px;
+}
+
+input#byagehigh.form-size.form-control{
+	color:#6a7841;
+}
+
+#searchbut{
+	border: 0px solid #e0e6d0;
+	color:#6a7841;	
+	background:#fff;
+}
+
+#searchbut:hover
+{
+    border:1px solid #6a7841;
+    text-decoration:none;
+    color:#000;
+    background:#e0e6d0;
+}
+
+#searchButton{
+	border:0px solid #fff;
+	width:auto;
+	float:left;
+	padding-top:39px;
+}
+
+
+#personalInfo{
+	border:0px solid #000;
+	color:#6a7841;
+	margin-left:20px;	
+}
+
+.glyphicon.glyphicon-edit{
+	color:#a7b678;
+	font-size:20px;
+	margin-top:-8px;
+}
+
+.glyphicon.glyphicon-edit:hover{
+	color:#6a7841;
+	font-size:20px;
+	margin-top:-8px;
+}
+
+
+
+#color{
+	background-color: #e0e6d0;
+}
+
+
